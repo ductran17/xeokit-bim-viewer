@@ -37,7 +37,7 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/explorer/StoreysExplorer.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {TreeViewPlugin, math} from &quot;@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js&quot;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {TreeViewPlugin, math} from &quot;@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js&quot;;
 import {Controller} from &quot;../Controller.js&quot;;
 import {TreeViewContextMenu} from &quot;../contextMenus/TreeViewContextMenu.js&quot;;
 
@@ -85,7 +85,8 @@ class StoreysExplorer extends Controller {
         });
 
         this._treeViewContextMenu = new TreeViewContextMenu(this.bimViewer, {
-            hideOnAction: true
+            hideOnAction: true,
+            enableMeasurements: cfg.enableMeasurements
         });
 
         this._treeView.on(&quot;contextmenu&quot;, (e) =&gt; {

@@ -37,23 +37,26 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/contextMenus/ObjectContextMenu.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {math, ContextMenu} from &quot;@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js&quot;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {ContextMenu, math} from &quot;@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js&quot;;
 
 /**
  * @private
  */
 class ObjectContextMenu extends ContextMenu {
 
-    constructor(bimViewer, cfg={}) {
+    constructor(bimViewer, cfg = {}) {
         super(cfg);
         this._bimViewer = bimViewer;
-        this._buildMenu();
+        this._buildMenu(cfg);
     }
 
-    _buildMenu() {
+    _buildMenu(cfg) {
 
         const showObjectItems = [];
         const focusObjectItems = [];
+        const measurementItems = [];
+
+        const enableMeasurements = (!!cfg.enableMeasurements);
 
         if (this._bimViewer._enablePropertiesInspector) {
             showObjectItems.push(...[{
@@ -133,6 +136,43 @@ class ObjectContextMenu extends ContextMenu {
                 }
             }
         ]);
+
+        if (enableMeasurements) {
+            measurementItems.push(...[{
+                getTitle: (context) =&gt; {
+                    return context.viewer.localeService.translate(&quot;canvasContextMenu.measurements&quot;) || &quot;Measurements&quot;;
+                },
+                doAction: function (context) {
+                    // Does nothing
+                },
+                items: [ // Sub-menu
+                    [{
+                        getTitle: (context) =&gt; {
+                            return context.viewer.localeService.translate(&quot;canvasContextMenu.clearMeasurements&quot;) || &quot;Clear&quot;;
+                        }, getEnabled: (context) =&gt; {
+                            return (context.bimViewer.getNumMeasurements() &gt; 0);
+                        }, doAction: (context) =&gt; {
+                            context.bimViewer.clearMeasurements();
+                        }
+                    }, {
+                        getTitle: (context) =&gt; {
+                            return context.bimViewer.getMeasurementsAxisVisible() ? context.viewer.localeService.translate(&quot;canvasContextMenu.hideMeasurementAxisWires&quot;) || &quot;Hide Axis Wires&quot; : context.viewer.localeService.translate(&quot;canvasContextMenu.showMeasurementAxisWires&quot;) || &quot;Show Axis Wires&quot;
+                        }, getEnabled: (context) =&gt; {
+                            return (context.bimViewer.getNumMeasurements() &gt; 0);
+                        }, doAction: (context) =&gt; {
+                            context.bimViewer.setMeasurementsAxisVisible(!context.bimViewer.getMeasurementsAxisVisible());
+                        }
+                    }, {
+                        getTitle: (context) =&gt; {
+                            return context.bimViewer.getMeasurementsSnappingEnabled() ? context.viewer.localeService.translate(&quot;canvasContextMenu.disableMeasurementSnapping&quot;) || &quot;Disable Snapping&quot; : context.viewer.localeService.translate(&quot;canvasContextMenu.enableMeasurementSnapping&quot;) || &quot;Enable Snapping&quot;
+                        }, getEnabled: (context) =&gt; {
+                            return (context.bimViewer.getNumMeasurements() &gt; 0);
+                        }, doAction: (context) =&gt; {
+                            context.bimViewer.setMeasurementsSnappingEnabled(!context.bimViewer.getMeasurementsSnappingEnabled());
+                        }
+                    }]]
+            }]);
+        }
 
         this.items = [
             showObjectItems,
@@ -317,7 +357,8 @@ class ObjectContextMenu extends ContextMenu {
                         context.bimViewer.clearSections();
                     }
                 }
-            ]
+            ],
+            measurementItems
         ];
     }
 }

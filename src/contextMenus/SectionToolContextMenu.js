@@ -1,4 +1,4 @@
-import {ContextMenu, math, utils} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
+import {ContextMenu, math, utils} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js";
 
 const tempAABB = math.AABB3();
 const tempVec3 = math.vec3();

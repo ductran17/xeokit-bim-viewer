@@ -1,6 +1,6 @@
 import {Controller} from "../Controller.js";
 import {SectionToolContextMenu} from "./../contextMenus/SectionToolContextMenu.js";
-import {math, SectionPlanesPlugin} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
+import {math, SectionPlanesPlugin} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js";
 
 /** @private */
 class SectionTool extends Controller { // XX

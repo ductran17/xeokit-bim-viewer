@@ -1,4 +1,4 @@
-import {BCFViewpointsPlugin, FastNavPlugin, math, stats, Viewer,} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
+import {BCFViewpointsPlugin, FastNavPlugin, math, stats, Viewer,} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js";
 
 import {Controller} from "./Controller.js";
 import {BusyModal} from "./BusyModal.js";

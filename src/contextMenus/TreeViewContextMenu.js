@@ -1,4 +1,4 @@
-import {ContextMenu, math} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
+import {ContextMenu, math} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js";
 
 const tempVec3 = math.vec3();
 

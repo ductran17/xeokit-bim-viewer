@@ -312,6 +312,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/bimviewer.js~bimviewer#clearmeasurements",
+    "class/src/BIMViewer.js~BIMViewer.html#instance-method-clearMeasurements",
+    "src/BIMViewer.js~BIMViewer#clearMeasurements",
+    "method"
+  ],
+  [
     "src/bimviewer.js~bimviewer#clearsections",
     "class/src/BIMViewer.js~BIMViewer.html#instance-method-clearSections",
     "src/BIMViewer.js~BIMViewer#clearSections",
@@ -378,6 +384,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/bimviewer.js~bimviewer#getenablemeasurements",
+    "class/src/BIMViewer.js~BIMViewer.html#instance-method-getEnableMeasurements",
+    "src/BIMViewer.js~BIMViewer#getEnableMeasurements",
+    "method"
+  ],
+  [
     "src/bimviewer.js~bimviewer#getkeyboardenabled",
     "class/src/BIMViewer.js~BIMViewer.html#instance-method-getKeyboardEnabled",
     "src/BIMViewer.js~BIMViewer#getKeyboardEnabled",
@@ -396,9 +408,27 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/bimviewer.js~bimviewer#getmeasurementsaxisvisible",
+    "class/src/BIMViewer.js~BIMViewer.html#instance-method-getMeasurementsAxisVisible",
+    "src/BIMViewer.js~BIMViewer#getMeasurementsAxisVisible",
+    "method"
+  ],
+  [
+    "src/bimviewer.js~bimviewer#getmeasurementssnappingenabled",
+    "class/src/BIMViewer.js~BIMViewer.html#instance-method-getMeasurementsSnappingEnabled",
+    "src/BIMViewer.js~BIMViewer#getMeasurementsSnappingEnabled",
+    "method"
+  ],
+  [
     "src/bimviewer.js~bimviewer#getmodelids",
     "class/src/BIMViewer.js~BIMViewer.html#instance-method-getModelIds",
     "src/BIMViewer.js~BIMViewer#getModelIds",
+    "method"
+  ],
+  [
+    "src/bimviewer.js~bimviewer#getnummeasurements",
+    "class/src/BIMViewer.js~BIMViewer.html#instance-method-getNumMeasurements",
+    "src/BIMViewer.js~BIMViewer#getNumMeasurements",
     "method"
   ],
   [
@@ -585,6 +615,18 @@ window.esdocSearchIndex = [
     "src/bimviewer.js~bimviewer#setkeyboardenabled",
     "class/src/BIMViewer.js~BIMViewer.html#instance-method-setKeyboardEnabled",
     "src/BIMViewer.js~BIMViewer#setKeyboardEnabled",
+    "method"
+  ],
+  [
+    "src/bimviewer.js~bimviewer#setmeasurementsaxisvisible",
+    "class/src/BIMViewer.js~BIMViewer.html#instance-method-setMeasurementsAxisVisible",
+    "src/BIMViewer.js~BIMViewer#setMeasurementsAxisVisible",
+    "method"
+  ],
+  [
+    "src/bimviewer.js~bimviewer#setmeasurementssnappingenabled",
+    "class/src/BIMViewer.js~BIMViewer.html#instance-method-setMeasurementsSnappingEnabled",
+    "src/BIMViewer.js~BIMViewer#setMeasurementsSnappingEnabled",
     "method"
   ],
   [
@@ -897,6 +939,18 @@ window.esdocSearchIndex = [
     "src/toolbar/marqueeselectiontool.js",
     "file/src/toolbar/MarqueeSelectionTool.js.html",
     "src/toolbar/MarqueeSelectionTool.js",
+    "file"
+  ],
+  [
+    "src/toolbar/measureangletool.js",
+    "file/src/toolbar/MeasureAngleTool.js.html",
+    "src/toolbar/MeasureAngleTool.js",
+    "file"
+  ],
+  [
+    "src/toolbar/measuredistancetool.js",
+    "file/src/toolbar/MeasureDistanceTool.js.html",
+    "src/toolbar/MeasureDistanceTool.js",
     "file"
   ],
   [

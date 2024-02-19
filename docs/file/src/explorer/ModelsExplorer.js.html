@@ -37,7 +37,7 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/explorer/ModelsExplorer.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {math, XKTLoaderPlugin} from &quot;@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js&quot;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import {math, XKTLoaderPlugin} from &quot;@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js&quot;;
 import {Controller} from &quot;../Controller.js&quot;;
 import {ModelsContextMenu} from &quot;../contextMenus/ModelsContextMenu.js&quot;;
 
@@ -115,6 +115,7 @@ class ModelsExplorer extends Controller {
 
         this._modelsContextMenu = new ModelsContextMenu({
             enableEditModels: cfg.enableEditModels,
+            enableMeasurements: cfg.enableMeasurements,
             hideOnAction: true
         });
 

@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 1221,
+  "end": 1258,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 1221,
+    "end": 1258,
     "loc": {
       "start": {
         "line": 1,
@@ -117,8 +117,8 @@
           {
             "type": "CommentBlock",
             "value": "* @private ",
-            "start": 46,
-            "end": 61,
+            "start": 48,
+            "end": 63,
             "loc": {
               "start": {
                 "line": 3,
@@ -134,8 +134,8 @@
       },
       {
         "type": "Identifier",
-        "start": 62,
-        "end": 1200,
+        "start": 65,
+        "end": 1235,
         "loc": {
           "start": {
             "line": 4,
@@ -148,8 +148,8 @@
         },
         "id": {
           "type": "Identifier",
-          "start": 68,
-          "end": 77,
+          "start": 71,
+          "end": 80,
           "loc": {
             "start": {
               "line": 4,
@@ -166,8 +166,8 @@
         },
         "superClass": {
           "type": "Identifier",
-          "start": 86,
-          "end": 96,
+          "start": 89,
+          "end": 99,
           "loc": {
             "start": {
               "line": 4,
@@ -183,8 +183,8 @@
         },
         "body": {
           "type": "ClassBody",
-          "start": 97,
-          "end": 1200,
+          "start": 100,
+          "end": 1235,
           "loc": {
             "start": {
               "line": 4,
@@ -198,8 +198,8 @@
           "body": [
             {
               "type": "ClassMethod",
-              "start": 104,
-              "end": 1198,
+              "start": 109,
+              "end": 1232,
               "loc": {
                 "start": {
                   "line": 6,
@@ -214,8 +214,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 104,
-                "end": 115,
+                "start": 109,
+                "end": 120,
                 "loc": {
                   "start": {
                     "line": 6,
@@ -237,8 +237,8 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 116,
-                  "end": 122,
+                  "start": 121,
+                  "end": 127,
                   "loc": {
                     "start": {
                       "line": 6,
@@ -254,8 +254,8 @@
                 },
                 {
                   "type": "Identifier",
-                  "start": 124,
-                  "end": 127,
+                  "start": 129,
+                  "end": 132,
                   "loc": {
                     "start": {
                       "line": 6,
@@ -272,8 +272,8 @@
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 129,
-                "end": 1198,
+                "start": 134,
+                "end": 1232,
                 "loc": {
                   "start": {
                     "line": 6,
@@ -287,8 +287,8 @@
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 140,
-                    "end": 154,
+                    "start": 147,
+                    "end": 161,
                     "loc": {
                       "start": {
                         "line": 8,
@@ -301,8 +301,8 @@
                     },
                     "expression": {
                       "type": "CallExpression",
-                      "start": 140,
-                      "end": 153,
+                      "start": 147,
+                      "end": 160,
                       "loc": {
                         "start": {
                           "line": 8,
@@ -315,8 +315,8 @@
                       },
                       "callee": {
                         "type": "Super",
-                        "start": 140,
-                        "end": 145,
+                        "start": 147,
+                        "end": 152,
                         "loc": {
                           "start": {
                             "line": 8,
@@ -331,8 +331,8 @@
                       "arguments": [
                         {
                           "type": "Identifier",
-                          "start": 146,
-                          "end": 152,
+                          "start": 153,
+                          "end": 159,
                           "loc": {
                             "start": {
                               "line": 8,
@@ -352,8 +352,8 @@
                       {
                         "type": "CommentLine",
                         "value": "  this.on(\"active\", (active) => {",
-                        "start": 163,
-                        "end": 198,
+                        "start": 172,
+                        "end": 207,
                         "loc": {
                           "start": {
                             "line": 10,
@@ -368,8 +368,8 @@
                       {
                         "type": "CommentLine",
                         "value": "      if (active) {",
-                        "start": 206,
-                        "end": 227,
+                        "start": 216,
+                        "end": 237,
                         "loc": {
                           "start": {
                             "line": 11,
@@ -384,8 +384,8 @@
                       {
                         "type": "CommentLine",
                         "value": "          this._onPick = this.viewer.cameraControl.on(\"picked\", (pickResult) => {",
-                        "start": 235,
-                        "end": 318,
+                        "start": 246,
+                        "end": 329,
                         "loc": {
                           "start": {
                             "line": 12,
@@ -400,8 +400,8 @@
                       {
                         "type": "CommentLine",
                         "value": "              if (!pickResult.entity) {",
-                        "start": 326,
-                        "end": 367,
+                        "start": 338,
+                        "end": 379,
                         "loc": {
                           "start": {
                             "line": 13,
@@ -416,8 +416,8 @@
                       {
                         "type": "CommentLine",
                         "value": "                  return;",
-                        "start": 375,
-                        "end": 402,
+                        "start": 388,
+                        "end": 415,
                         "loc": {
                           "start": {
                             "line": 14,
@@ -432,8 +432,8 @@
                       {
                         "type": "CommentLine",
                         "value": "              }",
-                        "start": 410,
-                        "end": 427,
+                        "start": 424,
+                        "end": 441,
                         "loc": {
                           "start": {
                             "line": 15,
@@ -448,8 +448,8 @@
                       {
                         "type": "CommentLine",
                         "value": " //             this.queryEntity(pickResult.entity);",
-                        "start": 435,
-                        "end": 489,
+                        "start": 450,
+                        "end": 504,
                         "loc": {
                           "start": {
                             "line": 16,
@@ -464,8 +464,8 @@
                       {
                         "type": "CommentLine",
                         "value": "          });",
-                        "start": 497,
-                        "end": 512,
+                        "start": 513,
+                        "end": 528,
                         "loc": {
                           "start": {
                             "line": 17,
@@ -480,8 +480,8 @@
                       {
                         "type": "CommentLine",
                         "value": "          this._onPickedNothing = this.viewer.cameraControl.on(\"pickedNothing\", () => {",
-                        "start": 520,
-                        "end": 609,
+                        "start": 537,
+                        "end": 626,
                         "loc": {
                           "start": {
                             "line": 18,
@@ -496,8 +496,8 @@
                       {
                         "type": "CommentLine",
                         "value": "              this.fire(\"queryNotPicked\", false);",
-                        "start": 617,
-                        "end": 668,
+                        "start": 635,
+                        "end": 686,
                         "loc": {
                           "start": {
                             "line": 19,
@@ -512,8 +512,8 @@
                       {
                         "type": "CommentLine",
                         "value": "          });",
-                        "start": 676,
-                        "end": 691,
+                        "start": 695,
+                        "end": 710,
                         "loc": {
                           "start": {
                             "line": 20,
@@ -528,8 +528,8 @@
                       {
                         "type": "CommentLine",
                         "value": "      } else {",
-                        "start": 699,
-                        "end": 715,
+                        "start": 719,
+                        "end": 735,
                         "loc": {
                           "start": {
                             "line": 21,
@@ -544,8 +544,8 @@
                       {
                         "type": "CommentLine",
                         "value": "",
-                        "start": 723,
-                        "end": 725,
+                        "start": 744,
+                        "end": 746,
                         "loc": {
                           "start": {
                             "line": 22,
@@ -560,8 +560,8 @@
                       {
                         "type": "CommentLine",
                         "value": "          if (this._onPick !== undefined) {",
-                        "start": 733,
-                        "end": 778,
+                        "start": 755,
+                        "end": 800,
                         "loc": {
                           "start": {
                             "line": 23,
@@ -576,8 +576,8 @@
                       {
                         "type": "CommentLine",
                         "value": "              this.viewer.cameraControl.off(this._onPick);",
-                        "start": 786,
-                        "end": 846,
+                        "start": 809,
+                        "end": 869,
                         "loc": {
                           "start": {
                             "line": 24,
@@ -592,8 +592,8 @@
                       {
                         "type": "CommentLine",
                         "value": "              this.viewer.cameraControl.off(this._onPickedNothing);",
-                        "start": 854,
-                        "end": 923,
+                        "start": 878,
+                        "end": 947,
                         "loc": {
                           "start": {
                             "line": 25,
@@ -608,8 +608,8 @@
                       {
                         "type": "CommentLine",
                         "value": "              this._onPick = undefined;",
-                        "start": 931,
-                        "end": 972,
+                        "start": 956,
+                        "end": 997,
                         "loc": {
                           "start": {
                             "line": 26,
@@ -624,8 +624,8 @@
                       {
                         "type": "CommentLine",
                         "value": "              this._onPickedNothing = undefined;",
-                        "start": 980,
-                        "end": 1030,
+                        "start": 1006,
+                        "end": 1056,
                         "loc": {
                           "start": {
                             "line": 27,
@@ -640,8 +640,8 @@
                       {
                         "type": "CommentLine",
                         "value": "          }",
-                        "start": 1038,
-                        "end": 1051,
+                        "start": 1065,
+                        "end": 1078,
                         "loc": {
                           "start": {
                             "line": 28,
@@ -656,8 +656,8 @@
                       {
                         "type": "CommentLine",
                         "value": "      }",
-                        "start": 1059,
-                        "end": 1068,
+                        "start": 1087,
+                        "end": 1096,
                         "loc": {
                           "start": {
                             "line": 29,
@@ -672,8 +672,8 @@
                       {
                         "type": "CommentLine",
                         "value": "  });",
-                        "start": 1076,
-                        "end": 1083,
+                        "start": 1105,
+                        "end": 1112,
                         "loc": {
                           "start": {
                             "line": 30,
@@ -688,8 +688,8 @@
                       {
                         "type": "CommentLine",
                         "value": "",
-                        "start": 1091,
-                        "end": 1093,
+                        "start": 1121,
+                        "end": 1123,
                         "loc": {
                           "start": {
                             "line": 31,
@@ -704,8 +704,8 @@
                       {
                         "type": "CommentLine",
                         "value": "  this.bimViewer.on(\"reset\", () => {",
-                        "start": 1101,
-                        "end": 1139,
+                        "start": 1132,
+                        "end": 1170,
                         "loc": {
                           "start": {
                             "line": 32,
@@ -720,8 +720,8 @@
                       {
                         "type": "CommentLine",
                         "value": "      this.setActive(false);",
-                        "start": 1147,
-                        "end": 1177,
+                        "start": 1179,
+                        "end": 1209,
                         "loc": {
                           "start": {
                             "line": 33,
@@ -736,8 +736,8 @@
                       {
                         "type": "CommentLine",
                         "value": "  });",
-                        "start": 1185,
-                        "end": 1192,
+                        "start": 1218,
+                        "end": 1225,
                         "loc": {
                           "start": {
                             "line": 34,
@@ -763,8 +763,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 1202,
-        "end": 1221,
+        "start": 1239,
+        "end": 1258,
         "loc": {
           "start": {
             "line": 38,
@@ -779,8 +779,8 @@
         "specifiers": [
           {
             "type": "ExportSpecifier",
-            "start": 1210,
-            "end": 1219,
+            "start": 1247,
+            "end": 1256,
             "loc": {
               "start": {
                 "line": 38,
@@ -793,8 +793,8 @@
             },
             "local": {
               "type": "Identifier",
-              "start": 1210,
-              "end": 1219,
+              "start": 1247,
+              "end": 1256,
               "loc": {
                 "start": {
                   "line": 38,
@@ -810,8 +810,8 @@
             },
             "exported": {
               "type": "Identifier",
-              "start": 1210,
-              "end": 1219,
+              "start": 1247,
+              "end": 1256,
               "loc": {
                 "start": {
                   "line": 38,
@@ -831,8 +831,8 @@
       },
       {
         "type": "ExportNamedDeclaration",
-        "start": 1202,
-        "end": 1221,
+        "start": 1239,
+        "end": 1258,
         "loc": {
           "start": {
             "line": 38,
@@ -845,8 +845,8 @@
         },
         "declaration": {
           "type": "ClassDeclaration",
-          "start": 62,
-          "end": 1200,
+          "start": 65,
+          "end": 1235,
           "loc": {
             "start": {
               "line": 4,
@@ -859,8 +859,8 @@
           },
           "id": {
             "type": "Identifier",
-            "start": 68,
-            "end": 77,
+            "start": 71,
+            "end": 80,
             "loc": {
               "start": {
                 "line": 4,
@@ -877,8 +877,8 @@
           },
           "superClass": {
             "type": "Identifier",
-            "start": 86,
-            "end": 96,
+            "start": 89,
+            "end": 99,
             "loc": {
               "start": {
                 "line": 4,
@@ -894,8 +894,8 @@
           },
           "body": {
             "type": "ClassBody",
-            "start": 97,
-            "end": 1200,
+            "start": 100,
+            "end": 1235,
             "loc": {
               "start": {
                 "line": 4,
@@ -909,8 +909,8 @@
             "body": [
               {
                 "type": "ClassMethod",
-                "start": 104,
-                "end": 1198,
+                "start": 109,
+                "end": 1232,
                 "loc": {
                   "start": {
                     "line": 6,
@@ -925,8 +925,8 @@
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 104,
-                  "end": 115,
+                  "start": 109,
+                  "end": 120,
                   "loc": {
                     "start": {
                       "line": 6,
@@ -948,8 +948,8 @@
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 116,
-                    "end": 122,
+                    "start": 121,
+                    "end": 127,
                     "loc": {
                       "start": {
                         "line": 6,
@@ -965,8 +965,8 @@
                   },
                   {
                     "type": "Identifier",
-                    "start": 124,
-                    "end": 127,
+                    "start": 129,
+                    "end": 132,
                     "loc": {
                       "start": {
                         "line": 6,
@@ -983,8 +983,8 @@
                 ],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 129,
-                  "end": 1198,
+                  "start": 134,
+                  "end": 1232,
                   "loc": {
                     "start": {
                       "line": 6,
@@ -998,8 +998,8 @@
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 140,
-                      "end": 154,
+                      "start": 147,
+                      "end": 161,
                       "loc": {
                         "start": {
                           "line": 8,
@@ -1012,8 +1012,8 @@
                       },
                       "expression": {
                         "type": "CallExpression",
-                        "start": 140,
-                        "end": 153,
+                        "start": 147,
+                        "end": 160,
                         "loc": {
                           "start": {
                             "line": 8,
@@ -1026,8 +1026,8 @@
                         },
                         "callee": {
                           "type": "Super",
-                          "start": 140,
-                          "end": 145,
+                          "start": 147,
+                          "end": 152,
                           "loc": {
                             "start": {
                               "line": 8,
@@ -1042,8 +1042,8 @@
                         "arguments": [
                           {
                             "type": "Identifier",
-                            "start": 146,
-                            "end": 152,
+                            "start": 153,
+                            "end": 159,
                             "loc": {
                               "start": {
                                 "line": 8,
@@ -1063,8 +1063,8 @@
                         {
                           "type": "CommentLine",
                           "value": "  this.on(\"active\", (active) => {",
-                          "start": 163,
-                          "end": 198,
+                          "start": 172,
+                          "end": 207,
                           "loc": {
                             "start": {
                               "line": 10,
@@ -1079,8 +1079,8 @@
                         {
                           "type": "CommentLine",
                           "value": "      if (active) {",
-                          "start": 206,
-                          "end": 227,
+                          "start": 216,
+                          "end": 237,
                           "loc": {
                             "start": {
                               "line": 11,
@@ -1095,8 +1095,8 @@
                         {
                           "type": "CommentLine",
                           "value": "          this._onPick = this.viewer.cameraControl.on(\"picked\", (pickResult) => {",
-                          "start": 235,
-                          "end": 318,
+                          "start": 246,
+                          "end": 329,
                           "loc": {
                             "start": {
                               "line": 12,
@@ -1111,8 +1111,8 @@
                         {
                           "type": "CommentLine",
                           "value": "              if (!pickResult.entity) {",
-                          "start": 326,
-                          "end": 367,
+                          "start": 338,
+                          "end": 379,
                           "loc": {
                             "start": {
                               "line": 13,
@@ -1127,8 +1127,8 @@
                         {
                           "type": "CommentLine",
                           "value": "                  return;",
-                          "start": 375,
-                          "end": 402,
+                          "start": 388,
+                          "end": 415,
                           "loc": {
                             "start": {
                               "line": 14,
@@ -1143,8 +1143,8 @@
                         {
                           "type": "CommentLine",
                           "value": "              }",
-                          "start": 410,
-                          "end": 427,
+                          "start": 424,
+                          "end": 441,
                           "loc": {
                             "start": {
                               "line": 15,
@@ -1159,8 +1159,8 @@
                         {
                           "type": "CommentLine",
                           "value": " //             this.queryEntity(pickResult.entity);",
-                          "start": 435,
-                          "end": 489,
+                          "start": 450,
+                          "end": 504,
                           "loc": {
                             "start": {
                               "line": 16,
@@ -1175,8 +1175,8 @@
                         {
                           "type": "CommentLine",
                           "value": "          });",
-                          "start": 497,
-                          "end": 512,
+                          "start": 513,
+                          "end": 528,
                           "loc": {
                             "start": {
                               "line": 17,
@@ -1191,8 +1191,8 @@
                         {
                           "type": "CommentLine",
                           "value": "          this._onPickedNothing = this.viewer.cameraControl.on(\"pickedNothing\", () => {",
-                          "start": 520,
-                          "end": 609,
+                          "start": 537,
+                          "end": 626,
                           "loc": {
                             "start": {
                               "line": 18,
@@ -1207,8 +1207,8 @@
                         {
                           "type": "CommentLine",
                           "value": "              this.fire(\"queryNotPicked\", false);",
-                          "start": 617,
-                          "end": 668,
+                          "start": 635,
+                          "end": 686,
                           "loc": {
                             "start": {
                               "line": 19,
@@ -1223,8 +1223,8 @@
                         {
                           "type": "CommentLine",
                           "value": "          });",
-                          "start": 676,
-                          "end": 691,
+                          "start": 695,
+                          "end": 710,
                           "loc": {
                             "start": {
                               "line": 20,
@@ -1239,8 +1239,8 @@
                         {
                           "type": "CommentLine",
                           "value": "      } else {",
-                          "start": 699,
-                          "end": 715,
+                          "start": 719,
+                          "end": 735,
                           "loc": {
                             "start": {
                               "line": 21,
@@ -1255,8 +1255,8 @@
                         {
                           "type": "CommentLine",
                           "value": "",
-                          "start": 723,
-                          "end": 725,
+                          "start": 744,
+                          "end": 746,
                           "loc": {
                             "start": {
                               "line": 22,
@@ -1271,8 +1271,8 @@
                         {
                           "type": "CommentLine",
                           "value": "          if (this._onPick !== undefined) {",
-                          "start": 733,
-                          "end": 778,
+                          "start": 755,
+                          "end": 800,
                           "loc": {
                             "start": {
                               "line": 23,
@@ -1287,8 +1287,8 @@
                         {
                           "type": "CommentLine",
                           "value": "              this.viewer.cameraControl.off(this._onPick);",
-                          "start": 786,
-                          "end": 846,
+                          "start": 809,
+                          "end": 869,
                           "loc": {
                             "start": {
                               "line": 24,
@@ -1303,8 +1303,8 @@
                         {
                           "type": "CommentLine",
                           "value": "              this.viewer.cameraControl.off(this._onPickedNothing);",
-                          "start": 854,
-                          "end": 923,
+                          "start": 878,
+                          "end": 947,
                           "loc": {
                             "start": {
                               "line": 25,
@@ -1319,8 +1319,8 @@
                         {
                           "type": "CommentLine",
                           "value": "              this._onPick = undefined;",
-                          "start": 931,
-                          "end": 972,
+                          "start": 956,
+                          "end": 997,
                           "loc": {
                             "start": {
                               "line": 26,
@@ -1335,8 +1335,8 @@
                         {
                           "type": "CommentLine",
                           "value": "              this._onPickedNothing = undefined;",
-                          "start": 980,
-                          "end": 1030,
+                          "start": 1006,
+                          "end": 1056,
                           "loc": {
                             "start": {
                               "line": 27,
@@ -1351,8 +1351,8 @@
                         {
                           "type": "CommentLine",
                           "value": "          }",
-                          "start": 1038,
-                          "end": 1051,
+                          "start": 1065,
+                          "end": 1078,
                           "loc": {
                             "start": {
                               "line": 28,
@@ -1367,8 +1367,8 @@
                         {
                           "type": "CommentLine",
                           "value": "      }",
-                          "start": 1059,
-                          "end": 1068,
+                          "start": 1087,
+                          "end": 1096,
                           "loc": {
                             "start": {
                               "line": 29,
@@ -1383,8 +1383,8 @@
                         {
                           "type": "CommentLine",
                           "value": "  });",
-                          "start": 1076,
-                          "end": 1083,
+                          "start": 1105,
+                          "end": 1112,
                           "loc": {
                             "start": {
                               "line": 30,
@@ -1399,8 +1399,8 @@
                         {
                           "type": "CommentLine",
                           "value": "",
-                          "start": 1091,
-                          "end": 1093,
+                          "start": 1121,
+                          "end": 1123,
                           "loc": {
                             "start": {
                               "line": 31,
@@ -1415,8 +1415,8 @@
                         {
                           "type": "CommentLine",
                           "value": "  this.bimViewer.on(\"reset\", () => {",
-                          "start": 1101,
-                          "end": 1139,
+                          "start": 1132,
+                          "end": 1170,
                           "loc": {
                             "start": {
                               "line": 32,
@@ -1431,8 +1431,8 @@
                         {
                           "type": "CommentLine",
                           "value": "      this.setActive(false);",
-                          "start": 1147,
-                          "end": 1177,
+                          "start": 1179,
+                          "end": 1209,
                           "loc": {
                             "start": {
                               "line": 33,
@@ -1447,8 +1447,8 @@
                         {
                           "type": "CommentLine",
                           "value": "  });",
-                          "start": 1185,
-                          "end": 1192,
+                          "start": 1218,
+                          "end": 1225,
                           "loc": {
                             "start": {
                               "line": 34,
@@ -1472,8 +1472,8 @@
             {
               "type": "CommentBlock",
               "value": "* @private ",
-              "start": 46,
-              "end": 61,
+              "start": 48,
+              "end": 63,
               "loc": {
                 "start": {
                   "line": 3,
@@ -1500,8 +1500,8 @@
     {
       "type": "CommentBlock",
       "value": "* @private ",
-      "start": 46,
-      "end": 61,
+      "start": 48,
+      "end": 63,
       "loc": {
         "start": {
           "line": 3,
@@ -1516,8 +1516,8 @@
     {
       "type": "CommentLine",
       "value": "  this.on(\"active\", (active) => {",
-      "start": 163,
-      "end": 198,
+      "start": 172,
+      "end": 207,
       "loc": {
         "start": {
           "line": 10,
@@ -1532,8 +1532,8 @@
     {
       "type": "CommentLine",
       "value": "      if (active) {",
-      "start": 206,
-      "end": 227,
+      "start": 216,
+      "end": 237,
       "loc": {
         "start": {
           "line": 11,
@@ -1548,8 +1548,8 @@
     {
       "type": "CommentLine",
       "value": "          this._onPick = this.viewer.cameraControl.on(\"picked\", (pickResult) => {",
-      "start": 235,
-      "end": 318,
+      "start": 246,
+      "end": 329,
       "loc": {
         "start": {
           "line": 12,
@@ -1564,8 +1564,8 @@
     {
       "type": "CommentLine",
       "value": "              if (!pickResult.entity) {",
-      "start": 326,
-      "end": 367,
+      "start": 338,
+      "end": 379,
       "loc": {
         "start": {
           "line": 13,
@@ -1580,8 +1580,8 @@
     {
       "type": "CommentLine",
       "value": "                  return;",
-      "start": 375,
-      "end": 402,
+      "start": 388,
+      "end": 415,
       "loc": {
         "start": {
           "line": 14,
@@ -1596,8 +1596,8 @@
     {
       "type": "CommentLine",
       "value": "              }",
-      "start": 410,
-      "end": 427,
+      "start": 424,
+      "end": 441,
       "loc": {
         "start": {
           "line": 15,
@@ -1612,8 +1612,8 @@
     {
       "type": "CommentLine",
       "value": " //             this.queryEntity(pickResult.entity);",
-      "start": 435,
-      "end": 489,
+      "start": 450,
+      "end": 504,
       "loc": {
         "start": {
           "line": 16,
@@ -1628,8 +1628,8 @@
     {
       "type": "CommentLine",
       "value": "          });",
-      "start": 497,
-      "end": 512,
+      "start": 513,
+      "end": 528,
       "loc": {
         "start": {
           "line": 17,
@@ -1644,8 +1644,8 @@
     {
       "type": "CommentLine",
       "value": "          this._onPickedNothing = this.viewer.cameraControl.on(\"pickedNothing\", () => {",
-      "start": 520,
-      "end": 609,
+      "start": 537,
+      "end": 626,
       "loc": {
         "start": {
           "line": 18,
@@ -1660,8 +1660,8 @@
     {
       "type": "CommentLine",
       "value": "              this.fire(\"queryNotPicked\", false);",
-      "start": 617,
-      "end": 668,
+      "start": 635,
+      "end": 686,
       "loc": {
         "start": {
           "line": 19,
@@ -1676,8 +1676,8 @@
     {
       "type": "CommentLine",
       "value": "          });",
-      "start": 676,
-      "end": 691,
+      "start": 695,
+      "end": 710,
       "loc": {
         "start": {
           "line": 20,
@@ -1692,8 +1692,8 @@
     {
       "type": "CommentLine",
       "value": "      } else {",
-      "start": 699,
-      "end": 715,
+      "start": 719,
+      "end": 735,
       "loc": {
         "start": {
           "line": 21,
@@ -1708,8 +1708,8 @@
     {
       "type": "CommentLine",
       "value": "",
-      "start": 723,
-      "end": 725,
+      "start": 744,
+      "end": 746,
       "loc": {
         "start": {
           "line": 22,
@@ -1724,8 +1724,8 @@
     {
       "type": "CommentLine",
       "value": "          if (this._onPick !== undefined) {",
-      "start": 733,
-      "end": 778,
+      "start": 755,
+      "end": 800,
       "loc": {
         "start": {
           "line": 23,
@@ -1740,8 +1740,8 @@
     {
       "type": "CommentLine",
       "value": "              this.viewer.cameraControl.off(this._onPick);",
-      "start": 786,
-      "end": 846,
+      "start": 809,
+      "end": 869,
       "loc": {
         "start": {
           "line": 24,
@@ -1756,8 +1756,8 @@
     {
       "type": "CommentLine",
       "value": "              this.viewer.cameraControl.off(this._onPickedNothing);",
-      "start": 854,
-      "end": 923,
+      "start": 878,
+      "end": 947,
       "loc": {
         "start": {
           "line": 25,
@@ -1772,8 +1772,8 @@
     {
       "type": "CommentLine",
       "value": "              this._onPick = undefined;",
-      "start": 931,
-      "end": 972,
+      "start": 956,
+      "end": 997,
       "loc": {
         "start": {
           "line": 26,
@@ -1788,8 +1788,8 @@
     {
       "type": "CommentLine",
       "value": "              this._onPickedNothing = undefined;",
-      "start": 980,
-      "end": 1030,
+      "start": 1006,
+      "end": 1056,
       "loc": {
         "start": {
           "line": 27,
@@ -1804,8 +1804,8 @@
     {
       "type": "CommentLine",
       "value": "          }",
-      "start": 1038,
-      "end": 1051,
+      "start": 1065,
+      "end": 1078,
       "loc": {
         "start": {
           "line": 28,
@@ -1820,8 +1820,8 @@
     {
       "type": "CommentLine",
       "value": "      }",
-      "start": 1059,
-      "end": 1068,
+      "start": 1087,
+      "end": 1096,
       "loc": {
         "start": {
           "line": 29,
@@ -1836,8 +1836,8 @@
     {
       "type": "CommentLine",
       "value": "  });",
-      "start": 1076,
-      "end": 1083,
+      "start": 1105,
+      "end": 1112,
       "loc": {
         "start": {
           "line": 30,
@@ -1852,8 +1852,8 @@
     {
       "type": "CommentLine",
       "value": "",
-      "start": 1091,
-      "end": 1093,
+      "start": 1121,
+      "end": 1123,
       "loc": {
         "start": {
           "line": 31,
@@ -1868,8 +1868,8 @@
     {
       "type": "CommentLine",
       "value": "  this.bimViewer.on(\"reset\", () => {",
-      "start": 1101,
-      "end": 1139,
+      "start": 1132,
+      "end": 1170,
       "loc": {
         "start": {
           "line": 32,
@@ -1884,8 +1884,8 @@
     {
       "type": "CommentLine",
       "value": "      this.setActive(false);",
-      "start": 1147,
-      "end": 1177,
+      "start": 1179,
+      "end": 1209,
       "loc": {
         "start": {
           "line": 33,
@@ -1900,8 +1900,8 @@
     {
       "type": "CommentLine",
       "value": "  });",
-      "start": 1185,
-      "end": 1192,
+      "start": 1218,
+      "end": 1225,
       "loc": {
         "start": {
           "line": 34,
@@ -2101,8 +2101,8 @@
     {
       "type": "CommentBlock",
       "value": "* @private ",
-      "start": 46,
-      "end": 61,
+      "start": 48,
+      "end": 63,
       "loc": {
         "start": {
           "line": 3,
@@ -2129,8 +2129,8 @@
         "updateContext": null
       },
       "value": "class",
-      "start": 62,
-      "end": 67,
+      "start": 65,
+      "end": 70,
       "loc": {
         "start": {
           "line": 4,
@@ -2155,8 +2155,8 @@
         "binop": null
       },
       "value": "QueryTool",
-      "start": 68,
-      "end": 77,
+      "start": 71,
+      "end": 80,
       "loc": {
         "start": {
           "line": 4,
@@ -2183,8 +2183,8 @@
         "updateContext": null
       },
       "value": "extends",
-      "start": 78,
-      "end": 85,
+      "start": 81,
+      "end": 88,
       "loc": {
         "start": {
           "line": 4,
@@ -2209,8 +2209,8 @@
         "binop": null
       },
       "value": "Controller",
-      "start": 86,
-      "end": 96,
+      "start": 89,
+      "end": 99,
       "loc": {
         "start": {
           "line": 4,
@@ -2234,8 +2234,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 97,
-      "end": 98,
+      "start": 100,
+      "end": 101,
       "loc": {
         "start": {
           "line": 4,
@@ -2260,8 +2260,8 @@
         "binop": null
       },
       "value": "constructor",
-      "start": 104,
-      "end": 115,
+      "start": 109,
+      "end": 120,
       "loc": {
         "start": {
           "line": 6,
@@ -2285,8 +2285,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 115,
-      "end": 116,
+      "start": 120,
+      "end": 121,
       "loc": {
         "start": {
           "line": 6,
@@ -2311,8 +2311,8 @@
         "binop": null
       },
       "value": "parent",
-      "start": 116,
-      "end": 122,
+      "start": 121,
+      "end": 127,
       "loc": {
         "start": {
           "line": 6,
@@ -2337,8 +2337,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 122,
-      "end": 123,
+      "start": 127,
+      "end": 128,
       "loc": {
         "start": {
           "line": 6,
@@ -2363,8 +2363,8 @@
         "binop": null
       },
       "value": "cfg",
-      "start": 124,
-      "end": 127,
+      "start": 129,
+      "end": 132,
       "loc": {
         "start": {
           "line": 6,
@@ -2388,8 +2388,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 127,
-      "end": 128,
+      "start": 132,
+      "end": 133,
       "loc": {
         "start": {
           "line": 6,
@@ -2413,8 +2413,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 129,
-      "end": 130,
+      "start": 134,
+      "end": 135,
       "loc": {
         "start": {
           "line": 6,
@@ -2441,8 +2441,8 @@
         "updateContext": null
       },
       "value": "super",
-      "start": 140,
-      "end": 145,
+      "start": 147,
+      "end": 152,
       "loc": {
         "start": {
           "line": 8,
@@ -2466,8 +2466,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 145,
-      "end": 146,
+      "start": 152,
+      "end": 153,
       "loc": {
         "start": {
           "line": 8,
@@ -2492,8 +2492,8 @@
         "binop": null
       },
       "value": "parent",
-      "start": 146,
-      "end": 152,
+      "start": 153,
+      "end": 159,
       "loc": {
         "start": {
           "line": 8,
@@ -2517,8 +2517,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 152,
-      "end": 153,
+      "start": 159,
+      "end": 160,
       "loc": {
         "start": {
           "line": 8,
@@ -2543,8 +2543,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 153,
-      "end": 154,
+      "start": 160,
+      "end": 161,
       "loc": {
         "start": {
           "line": 8,
@@ -2559,8 +2559,8 @@
     {
       "type": "CommentLine",
       "value": "  this.on(\"active\", (active) => {",
-      "start": 163,
-      "end": 198,
+      "start": 172,
+      "end": 207,
       "loc": {
         "start": {
           "line": 10,
@@ -2575,8 +2575,8 @@
     {
       "type": "CommentLine",
       "value": "      if (active) {",
-      "start": 206,
-      "end": 227,
+      "start": 216,
+      "end": 237,
       "loc": {
         "start": {
           "line": 11,
@@ -2591,8 +2591,8 @@
     {
       "type": "CommentLine",
       "value": "          this._onPick = this.viewer.cameraControl.on(\"picked\", (pickResult) => {",
-      "start": 235,
-      "end": 318,
+      "start": 246,
+      "end": 329,
       "loc": {
         "start": {
           "line": 12,
@@ -2607,8 +2607,8 @@
     {
       "type": "CommentLine",
       "value": "              if (!pickResult.entity) {",
-      "start": 326,
-      "end": 367,
+      "start": 338,
+      "end": 379,
       "loc": {
         "start": {
           "line": 13,
@@ -2623,8 +2623,8 @@
     {
       "type": "CommentLine",
       "value": "                  return;",
-      "start": 375,
-      "end": 402,
+      "start": 388,
+      "end": 415,
       "loc": {
         "start": {
           "line": 14,
@@ -2639,8 +2639,8 @@
     {
       "type": "CommentLine",
       "value": "              }",
-      "start": 410,
-      "end": 427,
+      "start": 424,
+      "end": 441,
       "loc": {
         "start": {
           "line": 15,
@@ -2655,8 +2655,8 @@
     {
       "type": "CommentLine",
       "value": " //             this.queryEntity(pickResult.entity);",
-      "start": 435,
-      "end": 489,
+      "start": 450,
+      "end": 504,
       "loc": {
         "start": {
           "line": 16,
@@ -2671,8 +2671,8 @@
     {
       "type": "CommentLine",
       "value": "          });",
-      "start": 497,
-      "end": 512,
+      "start": 513,
+      "end": 528,
       "loc": {
         "start": {
           "line": 17,
@@ -2687,8 +2687,8 @@
     {
       "type": "CommentLine",
       "value": "          this._onPickedNothing = this.viewer.cameraControl.on(\"pickedNothing\", () => {",
-      "start": 520,
-      "end": 609,
+      "start": 537,
+      "end": 626,
       "loc": {
         "start": {
           "line": 18,
@@ -2703,8 +2703,8 @@
     {
       "type": "CommentLine",
       "value": "              this.fire(\"queryNotPicked\", false);",
-      "start": 617,
-      "end": 668,
+      "start": 635,
+      "end": 686,
       "loc": {
         "start": {
           "line": 19,
@@ -2719,8 +2719,8 @@
     {
       "type": "CommentLine",
       "value": "          });",
-      "start": 676,
-      "end": 691,
+      "start": 695,
+      "end": 710,
       "loc": {
         "start": {
           "line": 20,
@@ -2735,8 +2735,8 @@
     {
       "type": "CommentLine",
       "value": "      } else {",
-      "start": 699,
-      "end": 715,
+      "start": 719,
+      "end": 735,
       "loc": {
         "start": {
           "line": 21,
@@ -2751,8 +2751,8 @@
     {
       "type": "CommentLine",
       "value": "",
-      "start": 723,
-      "end": 725,
+      "start": 744,
+      "end": 746,
       "loc": {
         "start": {
           "line": 22,
@@ -2767,8 +2767,8 @@
     {
       "type": "CommentLine",
       "value": "          if (this._onPick !== undefined) {",
-      "start": 733,
-      "end": 778,
+      "start": 755,
+      "end": 800,
       "loc": {
         "start": {
           "line": 23,
@@ -2783,8 +2783,8 @@
     {
       "type": "CommentLine",
       "value": "              this.viewer.cameraControl.off(this._onPick);",
-      "start": 786,
-      "end": 846,
+      "start": 809,
+      "end": 869,
       "loc": {
         "start": {
           "line": 24,
@@ -2799,8 +2799,8 @@
     {
       "type": "CommentLine",
       "value": "              this.viewer.cameraControl.off(this._onPickedNothing);",
-      "start": 854,
-      "end": 923,
+      "start": 878,
+      "end": 947,
       "loc": {
         "start": {
           "line": 25,
@@ -2815,8 +2815,8 @@
     {
       "type": "CommentLine",
       "value": "              this._onPick = undefined;",
-      "start": 931,
-      "end": 972,
+      "start": 956,
+      "end": 997,
       "loc": {
         "start": {
           "line": 26,
@@ -2831,8 +2831,8 @@
     {
       "type": "CommentLine",
       "value": "              this._onPickedNothing = undefined;",
-      "start": 980,
-      "end": 1030,
+      "start": 1006,
+      "end": 1056,
       "loc": {
         "start": {
           "line": 27,
@@ -2847,8 +2847,8 @@
     {
       "type": "CommentLine",
       "value": "          }",
-      "start": 1038,
-      "end": 1051,
+      "start": 1065,
+      "end": 1078,
       "loc": {
         "start": {
           "line": 28,
@@ -2863,8 +2863,8 @@
     {
       "type": "CommentLine",
       "value": "      }",
-      "start": 1059,
-      "end": 1068,
+      "start": 1087,
+      "end": 1096,
       "loc": {
         "start": {
           "line": 29,
@@ -2879,8 +2879,8 @@
     {
       "type": "CommentLine",
       "value": "  });",
-      "start": 1076,
-      "end": 1083,
+      "start": 1105,
+      "end": 1112,
       "loc": {
         "start": {
           "line": 30,
@@ -2895,8 +2895,8 @@
     {
       "type": "CommentLine",
       "value": "",
-      "start": 1091,
-      "end": 1093,
+      "start": 1121,
+      "end": 1123,
       "loc": {
         "start": {
           "line": 31,
@@ -2911,8 +2911,8 @@
     {
       "type": "CommentLine",
       "value": "  this.bimViewer.on(\"reset\", () => {",
-      "start": 1101,
-      "end": 1139,
+      "start": 1132,
+      "end": 1170,
       "loc": {
         "start": {
           "line": 32,
@@ -2927,8 +2927,8 @@
     {
       "type": "CommentLine",
       "value": "      this.setActive(false);",
-      "start": 1147,
-      "end": 1177,
+      "start": 1179,
+      "end": 1209,
       "loc": {
         "start": {
           "line": 33,
@@ -2943,8 +2943,8 @@
     {
       "type": "CommentLine",
       "value": "  });",
-      "start": 1185,
-      "end": 1192,
+      "start": 1218,
+      "end": 1225,
       "loc": {
         "start": {
           "line": 34,
@@ -2968,8 +2968,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1197,
-      "end": 1198,
+      "start": 1231,
+      "end": 1232,
       "loc": {
         "start": {
           "line": 35,
@@ -2993,8 +2993,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1199,
-      "end": 1200,
+      "start": 1234,
+      "end": 1235,
       "loc": {
         "start": {
           "line": 36,
@@ -3021,8 +3021,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 1202,
-      "end": 1208,
+      "start": 1239,
+      "end": 1245,
       "loc": {
         "start": {
           "line": 38,
@@ -3046,8 +3046,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1209,
-      "end": 1210,
+      "start": 1246,
+      "end": 1247,
       "loc": {
         "start": {
           "line": 38,
@@ -3072,8 +3072,8 @@
         "binop": null
       },
       "value": "QueryTool",
-      "start": 1210,
-      "end": 1219,
+      "start": 1247,
+      "end": 1256,
       "loc": {
         "start": {
           "line": 38,
@@ -3097,8 +3097,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 1219,
-      "end": 1220,
+      "start": 1256,
+      "end": 1257,
       "loc": {
         "start": {
           "line": 38,
@@ -3123,8 +3123,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1220,
-      "end": 1221,
+      "start": 1257,
+      "end": 1258,
       "loc": {
         "start": {
           "line": 38,
@@ -3149,8 +3149,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 1221,
-      "end": 1221,
+      "start": 1258,
+      "end": 1258,
       "loc": {
         "start": {
           "line": 38,

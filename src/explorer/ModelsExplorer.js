@@ -1,4 +1,4 @@
-import {math, XKTLoaderPlugin} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
+import {math, XKTLoaderPlugin} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js";
 import {Controller} from "../Controller.js";
 import {ModelsContextMenu} from "../contextMenus/ModelsContextMenu.js";
 

@@ -1,4 +1,4 @@
-import {math} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.es.js";
+import {math} from "@xeokit/xeokit-sdk/dist/xeokit-sdk.cjs.js";
 
 const MAX_KD_TREE_DEPTH = 15; // Increase if greater precision needed
 const kdTreeDimLength = new Float32Array(3);

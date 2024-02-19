@@ -51,6 +51,14 @@
     {
       "id": "RevitSamples",
       "name": "Revit Samples"
+    },
+    {
+      "id": "RadioTower",
+      "name": "RadioTower"
+    },
+    {
+    "id": "DuplexClone",
+    "name": "DuplexClone"
     }
   ]
 }

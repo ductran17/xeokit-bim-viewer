@@ -1,0 +1,28 @@
+{
+    "id": "DuplexClone",
+    "name": "DuplexClone",
+    "models": [
+        {
+            "id": "design_clone",
+            "name": "Duplex Design Clone"
+        },
+        {
+            "id": "mep_clone",
+            "name": "Duplex MEP Clone"
+        }
+    ],
+    "viewerConfigs": {
+    },
+    "viewerContent": {
+        "modelsLoaded": [
+            "design_clone",
+            "mep_clone"
+        ]
+    },
+    "viewerState": {
+        "tabOpen": "classes",
+        "expandObjectsTree": 1,
+        "expandClassesTree": 1,
+        "expandStoreysTree": 1
+    }
+}

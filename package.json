@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "@xeokit/xeokit-bim-viewer": "^2.5.1-beta-12",
+    "@xeokit/xeokit-convert": "^1.1.15-beta-1",
     "@xeokit/xeokit-sdk": "^2.5.2-beta-22",
     "core-js": "^3.23.3",
     "http-server": "^13.0.2"

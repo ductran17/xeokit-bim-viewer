@@ -1,10 +1,18 @@
 {
     "id": "RadioTower",
-    "name": "Radio Tower",
+    "name": "RadioTower",
     "models": [
       {
         "id": "design",
         "name": "Radio Tower Design"
+      },
+      {
+        "id": "design1",
+        "name": "Radio Tower Design 1"
+      },
+      {
+        "id": "design2",
+        "name": "Radio Tower Design 2"
       }
     ],
     "viewerConfigs": {
@@ -16,10 +24,15 @@
     },
     "viewerContent": {
       "modelsLoaded": [
-        "design"
+        "design",
+        "design1",
+        "design2"
       ]
     },
-    "viewerState": {
-      "tabOpen": "models"
+      "viewerState": {
+        "tabOpen": "classes",
+        "expandObjectsTree": 1,
+        "expandClassesTree": 1,
+        "expandStoreysTree": 1
     }
   }
